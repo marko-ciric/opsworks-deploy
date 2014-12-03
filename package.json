@@ -1,0 +1,26 @@
+{
+  "name": "opsworks-deploy",
+  "version": "0.0.1",
+  "description": "a small http server for listening requests and creating opsworks deployment requests",
+  "author": {
+      "name":"Marko Ciric",
+      "email":"ciric.marko@gmail.com"
+  },
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "method-override": "latest",
+    "serve-static": "latest",
+    "express3-handlebars": "0.5.0",
+    "socket.io": "latest",
+    "async": "latest",
+    "winston": "latest",
+    "underscore": "1.6.0",
+    "aws-sdk": "2.0.16",
+    "jsonpack": "^1.1.1",
+    "q": "^1.0.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
